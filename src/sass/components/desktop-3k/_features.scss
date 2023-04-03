@@ -1,0 +1,63 @@
+@media screen and (min-width: $desktop-3k) {
+  .features {
+    padding: 60px 0 130px 0;
+
+    &::before {
+      height: 6px;
+    }
+  }
+
+  .header-features {
+    margin-bottom: 20px;
+
+    font-size: 62px;
+  }
+  .text-features {
+    margin-bottom: 87px;
+
+    font-size: 33px;
+  }
+
+  .item-features {
+    width: 500px;
+
+    &:not(:last-child) {
+      margin-right: 115px;
+    }
+  }
+  .wrapper-icon {
+    width: 262px;
+    height: 262px;
+
+    margin-bottom: 50px;
+
+    border: 6px solid $border-icon-features;
+  }
+
+  .header-card-features {
+    margin-bottom: 47px;
+
+    font-size: 23px;
+  }
+  .text-card-features {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .layers-icon {
+    width: 110px;
+    height: 110px;
+  }
+  .mobile-icon {
+    width: 87px;
+    height: 131px;
+  }
+  .message-icon {
+    width: 110px;
+    height: 110px;
+  }
+  .comment-icon {
+    width: 110px;
+    height: 110px;
+  }
+}

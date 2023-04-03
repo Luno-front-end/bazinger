@@ -1,0 +1,136 @@
+.features {
+  position: relative;
+  background-color: $bg-sec-features;
+  color: $base-color-text;
+
+  padding: 49px 0 92px 0;
+
+  text-align: center;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: -1px;
+    left: 0;
+    display: block;
+
+    width: 100%;
+    height: 4px;
+
+    background-color: $base-color;
+  }
+}
+
+.header-features {
+  margin-bottom: 10px;
+
+  font-size: 36px;
+}
+.text-features {
+  margin-bottom: 67px;
+
+  font-weight: 300;
+  font-size: 20px;
+}
+.list-features {
+  display: flex;
+  justify-content: center;
+}
+.item-features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 219px;
+
+  &:not(:last-child) {
+    margin-right: 95px;
+  }
+
+  &:hover {
+    .wrapper-icon {
+      background-color: $base-color-text;
+    }
+    .header-card-features {
+      color: $base-color;
+    }
+    .layers-icon {
+      fill: $bg-sec-features;
+    }
+    .mobile-icon {
+      fill: $bg-sec-features;
+    }
+    .message-icon {
+      fill: $bg-sec-features;
+    }
+    .comment-icon {
+      fill: $bg-sec-features;
+    }
+  }
+}
+.wrapper-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $base-color;
+
+  width: 162px;
+  height: 162px;
+
+  margin-bottom: 30px;
+
+  border: 4px solid $border-icon-features;
+  border-radius: 50%;
+
+  transition: background-color 250ms linear;
+}
+
+.header-card-features {
+  margin-bottom: 27px;
+
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  transition: color 250ms linear;
+}
+.text-card-features {
+  color: $color-p-card-features;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.layers-icon {
+  fill: $base-white-color;
+
+  width: 70px;
+  height: 70px;
+
+  transition: fill 250ms linear;
+}
+.mobile-icon {
+  fill: $base-white-color;
+
+  width: 47px;
+  height: 69px;
+
+  transition: fill 250ms linear;
+}
+.message-icon {
+  fill: $base-white-color;
+
+  width: 70px;
+  height: 70px;
+
+  transition: fill 250ms linear;
+}
+.comment-icon {
+  fill: $base-white-color;
+
+  width: 70px;
+  height: 70px;
+
+  transition: fill 250ms linear;
+}

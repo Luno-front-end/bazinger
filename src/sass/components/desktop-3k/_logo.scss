@@ -1,0 +1,23 @@
+@media screen and (min-width: $desktop-3k) {
+  .signal-img-logo {
+    left: 64px;
+    top: -17px;
+    width: 40px;
+    height: 24px;
+  }
+  .logo-text {
+    color: $base-white-color;
+
+    // width: 173px;
+    // height: 72px;
+
+    font-family: "droid-sans", sans-serif;
+    font-size: 47px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+  .logo-subText {
+    color: $base-color;
+  }
+}

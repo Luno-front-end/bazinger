@@ -1,0 +1,29 @@
+@media screen and (min-width: $tablets) and (max-width: $desktop) {
+  .gallery {
+    position: relative;
+  }
+  .header-gallery {
+    margin-bottom: 3px;
+
+    font-size: 36px;
+  }
+
+  .text-gallery {
+    font-size: 20px;
+  }
+  .list-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .item-gallery {
+    flex: 1 1 300px;
+    margin: 10px !important;
+  }
+
+  .img-screenShot {
+    width: 100%;
+    height: 250px;
+
+    transition: opacity 250ms linear;
+  }
+}

@@ -1,0 +1,15 @@
+@media screen and (min-width: $tablets) and (max-width: $desktop) {
+  .hiro {
+    top: 50%;
+    left: 50%;
+
+    max-width: calc(70% - 60px);
+    transform: translate(-50%, -50%);
+  }
+
+  .header-hiro {
+    display: block;
+
+    font-size: 40px;
+  }
+}

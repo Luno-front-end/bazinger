@@ -1,0 +1,35 @@
+.footer {
+  background-color: $base-color-text;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.flex-box {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright {
+  color: $active-btn;
+
+  opacity: 0.25;
+
+  font-size: 12px;
+}
+
+.logo-footer {
+  text-transform: uppercase;
+}
+
+.policy {
+  color: $base-white-color;
+
+  opacity: 0.25;
+
+  font-size: 12px;
+}
+.link-policy {
+  color: $base-white-color;
+
+  opacity: 0.25;
+
+  font-size: 12px;
+}

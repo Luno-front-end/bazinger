@@ -1,0 +1,25 @@
+.logo-box {
+  position: relative;
+}
+.signal-img-logo {
+  position: absolute;
+  left: 50.5px;
+  top: -5px;
+  width: 27px;
+  height: 11px;
+}
+.logo-text {
+  color: $base-white-color;
+
+  width: 137px;
+  height: 36px;
+
+  font-family: "droid-sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: normal;
+}
+.logo-subText {
+  color: $base-color;
+}

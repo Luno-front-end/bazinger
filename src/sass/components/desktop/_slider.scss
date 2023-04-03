@@ -1,0 +1,212 @@
+.slider-wrapper {
+  position: relative;
+  overflow: hidden;
+
+  height: 800px;
+}
+
+.slides-container {
+  height: calc(100vh - 60px);
+  width: 100%;
+  height: 800px;
+
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slides-container::-webkit-scrollbar {
+  display: none;
+}
+.wrapper-amount {
+  display: flex;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+
+  transform: translate(-50%);
+}
+.amount-slides {
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  border: 1px solid $base-white-color;
+
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  &.active-slide {
+    width: 13px;
+    height: 13px;
+
+    background-color: $base-color;
+
+    border: 1px solid $base-color;
+  }
+}
+
+.slide-arrow {
+  position: absolute;
+  display: flex;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
+  &:focus {
+    opacity: 1;
+  }
+}
+
+#slide-arrow-prev {
+  justify-content: center;
+  align-items: center;
+  left: 70px;
+  border-radius: 50%;
+  z-index: 999;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: $bg-btn-slide;
+
+  transition: background-color 250ms linear;
+
+  &:hover {
+    background-color: $base-color;
+
+    transition: background-color 250ms linear;
+
+    .arrow-icon-prev {
+      fill: $base-color-text;
+
+      transition: fill 250ms linear;
+    }
+    .arrow-icon-next {
+      fill: $base-color-text;
+
+      transition: fill 250ms linear;
+    }
+  }
+  &:focus {
+    background-color: $base-color;
+
+    .arrow-icon-prev {
+      fill: $base-color-text;
+    }
+    .arrow-icon-next {
+      fill: $base-color-text;
+    }
+  }
+}
+
+#slide-arrow-next {
+  justify-content: center;
+  align-items: center;
+  right: 70px;
+
+  border-radius: 50%;
+  z-index: 999;
+
+  width: 40px;
+  height: 40px;
+
+  transform: rotate(180deg);
+  background-color: $bg-btn-slide;
+
+  transition: background-color 250ms linear;
+  &:hover {
+    background-color: $base-color;
+
+    transition: background-color 250ms linear;
+
+    .arrow-icon-prev {
+      fill: $base-color-text;
+
+      transition: fill 250ms linear;
+    }
+    .arrow-icon-next {
+      fill: $base-color-text;
+
+      transition: fill 250ms linear;
+    }
+  }
+  &:focus {
+    background-color: $base-color;
+
+    .arrow-icon-prev {
+      fill: $base-color-text;
+    }
+    .arrow-icon-next {
+      fill: $base-color-text;
+    }
+  }
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  flex: 1 0 100%;
+}
+
+.slide:nth-child(1) {
+  background: url(../img/slide_one.jpg);
+
+  @supports (background: url("../img/slide_one.webp")) {
+    background: url("../img/slide_one.webp") no-repeat center/cover;
+  }
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide:nth-child(2) {
+  background-image: url(../img/slide_two.jpg);
+
+  @supports (background: url("../img/slide_two.webp")) {
+    background: url("../img/slide_two.webp") no-repeat center/cover;
+  }
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide:nth-child(3) {
+  background-image: url(../img/slide_three.jpg);
+
+  @supports (background: url("../img/slide_three.webp")) {
+    background: url("../img/slide_three.webp") no-repeat center/cover;
+  }
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.arrow-icon-prev {
+  width: 7px;
+  height: 12px;
+
+  fill: $base-white-color;
+
+  transition: fill 250ms linear;
+}
+.arrow-icon-next {
+  width: 7px;
+  height: 12px;
+
+  fill: $base-white-color;
+
+  transition: fill 250ms linear;
+}

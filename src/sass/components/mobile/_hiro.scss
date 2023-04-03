@@ -1,0 +1,120 @@
+@media screen and (max-width: ( $mobile-old - 1)) {
+  .hiro {
+    top: 65px;
+    right: 0;
+
+    display: block;
+
+    width: calc(100% - 20px);
+  }
+  .header-hiro {
+    text-align: left;
+    text-shadow: 0 1px 3px #1916185c;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 300;
+  }
+  .wrapper-hiro {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .header-hiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 24px;
+
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(25, 22, 24, 0.36);
+  }
+
+  .text-hiro {
+    margin-bottom: 40px;
+
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .list-btn-hiro {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .item-btn-hiro {
+    display: flex;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .wrapper-apps {
+    justify-content: center;
+  }
+}
+@media screen and (min-width: $mobile-old) and (max-width: $desktop) {
+  .hiro {
+    top: 65px;
+    right: 0;
+
+    display: block;
+
+    width: calc(100% - 20px);
+  }
+  .header-hiro {
+    text-align: left;
+    text-shadow: 0 1px 3px #1916185c;
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 300;
+  }
+  .wrapper-hiro {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .header-hiro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 24px;
+
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(25, 22, 24, 0.36);
+  }
+
+  .text-hiro {
+    margin-bottom: 40px;
+
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+  }
+  .list-btn-hiro {
+    display: block;
+    margin-bottom: 25px;
+  }
+  .item-btn-hiro {
+    display: flex;
+    justify-content: center;
+
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  }
+
+  .wrapper-apps {
+    justify-content: center;
+  }
+}

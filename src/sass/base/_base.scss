@@ -1,0 +1,73 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+// .container {
+
+// }
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: ($mobile-old - 1)) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  @media screen and (min-width: $mobile-old) {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    width: calc($mobile-old - 20px);
+  }
+  @media screen and (min-width: $mobile) {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc($mobile - 20px);
+  }
+  @media screen and (min-width: $tablets) {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: calc($tablets - 60px);
+  }
+  @media screen and (min-width: $desktop) {
+    width: calc($desktop - 60px);
+  }
+  @media screen and (min-width: $desktop-fullHD) {
+    width: calc($desktop-fullHD - 60px);
+  }
+  @media screen and (min-width: $desktop-1k) {
+    width: calc($desktop-1k - 60px);
+  }
+  @media screen and (min-width: $desktop-2k) {
+    width: calc($desktop-2k - 60px);
+  }
+  @media screen and (min-width: $desktop-3k) {
+    width: calc($desktop-3k - 60px);
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "bazinger",
+  "version": "2.1.0",
+  "description": "",
+  "browserslist": "> 0.25%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luno-front-end/bazinger.git"
+  },
+  "keywords": [],
+  "author": "Luno-front-end <onlyrobochaposhta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Luno-front-end/bazinger/issues"
+  },
+  "homepage": "https://Luno-front-end.github.io/bazinger",
+  "parcel-namer-custom": {
+    ".scss$": "land_files/css/[name].[hash].[type]",
+    ".css$": "land_files/css/[name].[hash].[type]",
+    ".jsx?$": "land_files/scripts/[name].[hash].[type]",
+    ".js?$": "land_files/scripts/[name].[hash].[type]",
+    ".jpg$|.png$|.jpeg$|.svg$|.webp$|.ico": "land_files/img/[name].[hash].[type]",
+    ".svg$": "land_files/[folder][name].[hash].[type]",
+    ".mp4$": "land_files/media/[name].[hash].[type]"
+
+
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "buffer": "^6.0.3",
+    "cssnano": "^5.1.14",
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0",
+    "parcel-namer-custom": "^0.2.0",
+    "parcel-plugin-clean-easy": "^1.0.2",
+    "postcss": "^8.4.16",
+    "process": "^0.11.10",
+    "sass": "^1.54.8",
+    "sharp": "^0.31.1"
+  },
+  "dependencies": {
+    "parcel-namer-rewrite": "^2.0.0-rc.2"
+  }
+}

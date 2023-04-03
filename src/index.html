@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/fontawesome" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/arial-mt" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.typekit.net/pmq1pus.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <title>Bazinger</title>
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav class="nav-container">
+        <div class="container wrapper-nav">
+          <div class="logo-container">
+            <a href="#" class="logo-link">
+              <div class="logo-box">
+                <picture>
+                  <source
+                    srcset="./img/logo_signa.webp"
+                    type="image/webp"
+                    width="27"
+                    height="11" />
+
+                  <source
+                    srcset="./img/logo_signa.png"
+                    type="image/jpeg"
+                    width="27"
+                    height="11" />
+                  <img
+                    src="./img/logo_signa.png"
+                    alt="signal logo"
+                    width="27"
+                    height="11"
+                    class="signal-img-logo"
+                /></picture>
+
+                <span class="logo-text">
+                  ba<span class="logo-subText">zinger</span>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="list-container">
+            <ul class="list-nav">
+              <li class="item-nav">
+                <a href="#home" class="link-nav active">Home</a>
+              </li>
+              <li class="item-nav">
+                <a href="#features" class="link-nav">Features</a>
+              </li>
+              <li class="item-nav">
+                <a href="#gallery" class="link-nav">Gallery</a>
+              </li>
+              <li class="item-nav">
+                <a href="#video" class="link-nav">Video</a>
+              </li>
+              <li class="item-nav">
+                <a href="#" class="link-nav">Price</a>
+              </li>
+              <li class="item-nav">
+                <a href="#" class="link-nav">Testimonials</a>
+              </li>
+              <li class="item-nav">
+                <a href="#home" class="link-nav">Download</a>
+              </li>
+              <li class="item-nav">
+                <a href="#contact" class="link-nav">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <button type="button" class="wrapper-burger">
+            <span class="burger"></span>
+          </button>
+        </div>
+      </nav>
+      <div class="slider-wrapper">
+        <button class="slide-arrow" id="slide-arrow-prev">
+          <svg class="arrow-icon-prev">
+            <use href="./img/spryte.svg#arrow"></use>
+          </svg>
+        </button>
+        <button class="slide-arrow" id="slide-arrow-next">
+          <svg class="arrow-icon-next">
+            <use href="./img/spryte.svg#arrow"></use>
+          </svg>
+        </button>
+        <ul class="slides-container" id="slides-container">
+          <li class="slide"></li>
+          <li class="slide"></li>
+          <li class="slide"></li>
+        </ul>
+        <div class="wrapper-amount"></div>
+      </div>
+
+      <div class="container hiro">
+        <div class="wrapper-hiro">
+          <h1 class="header-hiro">
+            Simple, Beautiful <span class="subHeader-hiro">and Amazing</span>
+          </h1>
+          <p class="text-hiro">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget
+            nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper
+            felis at convallis. Aenean ornare vestibulum nisi fringilla lacinia.
+            Nullam pulvinar sollicitudin velit id laoreet. Quisque non rhoncus
+            sem.
+          </p>
+          <ul class="list-btn-hiro">
+            <li class="item-btn-hiro">
+              <button type="submit" class="btn-hiro">Download</button>
+            </li>
+            <li class="item-btn-hiro">
+              <button type="submit" class="btn-hiro">Learn more</button>
+            </li>
+          </ul>
+          <div class="wrapper-apps">
+            <p class="apps-available-hiro">Available on :</p>
+            <ul class="apps-list-hiro">
+              <li class="apps-item-hiro">
+                <a href="#" class="apps-link-hiro">
+                  <svg class="apple-icon">
+                    <use
+                      class="apple-icon"
+                      href="./img/spryte.svg#apple_icon"></use></svg
+                ></a>
+              </li>
+              <li class="apps-item-hiro">
+                <a href="#" class="apps-link-hiro">
+                  <svg class="android-icon">
+                    <use href="./img/spryte.svg#android_icon"></use></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="features" class="features">
+        <div class="container">
+          <div>
+            <h2 class="header-features">summarise the features</h2>
+            <p class="text-features">
+              summarise what your product is all about
+            </p>
+          </div>
+          <ul class="list-features">
+            <li class="item-features">
+              <div class="wrapper-icon">
+                <svg class="layers-icon">
+                  <use href="./img/spryte.svg#layers_icon"></use>
+                </svg>
+              </div>
+              <h3 class="header-card-features">Attractive Layout</h3>
+              <p class="text-card-features">
+                Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                pulvinar massa idporta nequetiam elerisque mi id faucibus
+                iaculis vitae pulvinar.
+              </p>
+            </li>
+            <li class="item-features">
+              <div class="wrapper-icon">
+                <svg class="mobile-icon">
+                  <use href="./img/spryte.svg#mobile_icon"></use>
+                </svg>
+              </div>
+              <h3 class="header-card-features">Fresh Design</h3>
+              <p class="text-card-features">
+                Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                pulvinar massa idporta nequetiam elerisque mi id faucibus
+                iaculis vitae pulvinar.
+              </p>
+            </li>
+            <li class="item-features">
+              <div class="wrapper-icon">
+                <svg class="message-icon">
+                  <use href="./img/spryte.svg#message_icon"></use>
+                </svg>
+              </div>
+              <h3 class="header-card-features">multipurpose</h3>
+              <p class="text-card-features">
+                Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                pulvinar massa idporta nequetiam elerisque mi id faucibus
+                iaculis vitae pulvinar.
+              </p>
+            </li>
+            <li class="item-features">
+              <div class="wrapper-icon">
+                <svg class="comment-icon">
+                  <use href="./img/spryte.svg#comment_icon"></use>
+                </svg>
+              </div>
+              <h3 class="header-card-features">Easy to customize</h3>
+              <p class="text-card-features">
+                Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                pulvinar massa idporta nequetiam elerisque mi id faucibus
+                iaculis vitae pulvinar.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div>
+            <h2 class="header-gallery">show the gallery</h2>
+            <p class="text-gallery">summarise what your product is all about</p>
+          </div>
+          <ul class="list-gallery">
+            <li class="item-gallery">
+              <div class="wrapper-screenShot">
+                <picture>
+                  <source
+                    srcset="./img/service.webp"
+                    type="image/webp"
+                    width="270"
+                    height="200" />
+
+                  <source
+                    srcset="./img/service.jpeg"
+                    type="image/jpeg"
+                    width="270"
+                    height="200" />
+                  <img
+                    src="./img/service.jpeg"
+                    alt="service img onne"
+                    width="270"
+                    height="200"
+                    class="img-screenShot"
+                /></picture>
+
+                <span class="plus-simbol">+</span>
+                <div class="wrapper-text-screnShot">
+                  <p class="screenShot-text">Screen shot #1</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-card-gallery">
+                  Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                  pulvinar massa idporta nequetiam elerisque mi id faucibus
+                  iaculis vitae pulvinar.
+                </p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="wrapper-screenShot">
+                <picture>
+                  <source
+                    srcset="./img/service_two.webp"
+                    type="image/webp"
+                    width="270"
+                    height="200" />
+
+                  <source
+                    srcset="./img/service_two.jpeg"
+                    type="image/jpeg"
+                    width="270"
+                    height="200" />
+                  <img
+                    src="./img/service_two.jpeg"
+                    alt="service img four"
+                    width="270"
+                    height="200"
+                    class="img-screenShot"
+                /></picture>
+
+                <span class="plus-simbol">+</span>
+                <div class="wrapper-text-screnShot">
+                  <p class="screenShot-text">Screen shot #2</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-card-gallery">
+                  Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                  pulvinar massa idporta nequetiam elerisque mi id faucibus
+                  iaculis vitae pulvinar.
+                </p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="wrapper-screenShot">
+                <picture>
+                  <source
+                    srcset="./img/service_three.webp"
+                    type="image/webp"
+                    width="270"
+                    height="200" />
+
+                  <source
+                    srcset="./img/service_three.jpeg"
+                    type="image/jpeg"
+                    width="270"
+                    height="200" />
+                  <img
+                    src="./img/service_three.jpeg"
+                    alt="service img three"
+                    width="270"
+                    height="200"
+                    class="img-screenShot"
+                /></picture>
+
+                <span class="plus-simbol">+</span>
+                <div class="wrapper-text-screnShot">
+                  <p class="screenShot-text">Screen shot #3</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-card-gallery">
+                  Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                  pulvinar massa idporta nequetiam elerisque mi id faucibus
+                  iaculis vitae pulvinar.
+                </p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="wrapper-screenShot">
+                <picture>
+                  <source
+                    srcset="./img/phone_help.webp"
+                    type="image/webp"
+                    width="270"
+                    height="200" />
+
+                  <source
+                    srcset="./img/phone_help.jpeg"
+                    type="image/jpeg"
+                    width="270"
+                    height="200" />
+                  <img
+                    src="./img/phone_help.jpeg"
+                    alt="service img three"
+                    width="270"
+                    height="200"
+                    class="img-screenShot"
+                /></picture>
+
+                <span class="plus-simbol">+</span>
+                <div class="wrapper-text-screnShot">
+                  <p class="screenShot-text">Screen shot #4</p>
+                </div>
+              </div>
+              <div>
+                <p class="text-card-gallery">
+                  Nunc cursus libero purus ac congue arcu cursus ut sed vitae
+                  pulvinar massa idporta nequetiam elerisque mi id faucibus
+                  iaculis vitae pulvinar.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="video" class="video">
+        <div class="wrapper-video">
+          <video autoplay muted="true" loop id="myVideo" class="promo_video">
+            <source src="./media/promo_video.mp4" type="video/mp4" />
+          </video>
+          <div class="container position" id="info-box">
+            <button class="btn-play" id="btn-play">
+              <svg class="play-icon">
+                <use href="./img/spryte.svg#play_icon"></use>
+              </svg>
+            </button>
+            <h2 class="header-video">
+              Watch the best Technology in
+              <span class="subHeader-video">Action</span>
+            </h2>
+            <p class="text-video">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget
+              nunc vitae tellus luctus ullamcorper. Nam porttitor ullamcorper
+              felis at convallis. Aenean ornare vestibulum nisi fringilla
+              lacinia. Nullam pulvinar sollicitudin velit id laoreet. Quisque
+              non rhoncus sem.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="wrapper-map">
+          <iframe
+            class="maps"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5117.86472569712!2d28.724730712014424!3d50.247968420082714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472c63392f825797%3A0x7998d8332d42a812!2z0YPQuy4g0JrQvtGA0L7Qu9GR0LLQsCwgMTMyLCDQltC40YLQvtC80LjRgCwg0JbQuNGC0L7QvNC40YDRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMTAwMDE!5e0!3m2!1sru!2sua!4v1680385454635!5m2!1sru!2sua"
+            width="600"
+            height="775"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+
+          <div class="container positio-contact">
+            <div class="wrapper-form">
+              <h2 class="header-contact">Contact</h2>
+              <form action="post" class="contact-form">
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Your name" />
+                <input
+                  class="contact-input"
+                  type="email"
+                  placeholder="Your email" />
+                <input
+                  class="contact-input"
+                  type="text"
+                  placeholder="Subject" />
+                <textarea
+                  class="contact-textarea"
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Message"></textarea>
+                <button type="submit" class="btn-contact">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container flex-box">
+        <div>
+          <p class="copyright">
+            Copyright © 2023 | <span class="logo-footer">bazinger</span> | All
+            Rights Reserved
+          </p>
+        </div>
+        <div>
+          <p class="policy">
+            <a href="" class="link-policy">Terms of Service</a> |
+            <a href="" class="link-policy">Privacy Policy</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>

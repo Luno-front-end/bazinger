@@ -1,0 +1,48 @@
+@import "./utils/variables";
+@import "./base/normalize";
+@import "./base/base";
+
+// Desktop
+@import "./components/desktop/header";
+@import "./components/desktop/slider";
+@import "./components/desktop/logo";
+@import "./components/desktop/hiro";
+@import "./components/desktop/features";
+@import "./components/desktop/gallery";
+@import "./components/desktop/video";
+@import "./components/desktop/contact";
+@import "./components/desktop/footer";
+
+// Mobile
+@import "./components/mobile/header";
+@import "./components/mobile/slider";
+@import "./components/mobile/logo";
+@import "./components/mobile/hiro";
+@import "./components/mobile/features";
+@import "./components/mobile/gallery";
+@import "./components/mobile/video";
+@import "./components/mobile/footer";
+
+// Tablets
+@import "./components/tablets/hiro";
+@import "./components/tablets/features";
+@import "./components/tablets/gallery";
+@import "./components/tablets/video";
+
+// Desktop 1k
+@import "./components/desktop-1k/header";
+@import "./components/desktop-1k/slider";
+
+// Desktop 2k
+@import "./components/desktop-2k/hiro";
+
+// Desktop 3k
+@import "./components/desktop-3k/header";
+@import "./components/desktop-3k/slider";
+@import "./components/desktop-3k/logo";
+@import "./components/desktop-3k/hiro";
+@import "./components/desktop-3k/features";
+@import "./components/desktop-3k/gallery";
+@import "./components/desktop-3k/video";
+@import "./components/desktop-3k/contact";
+@import "./components/desktop-3k/footer";

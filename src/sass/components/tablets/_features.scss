@@ -1,0 +1,19 @@
+@media screen and (min-width: $tablets) and (max-width: $desktop) {
+  .header-features {
+    font-size: 36px;
+  }
+  .text-features {
+    font-size: 20px;
+  }
+  .list-features {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  .item-features {
+    flex: 1 1 300px;
+    margin: 10px !important;
+  }
+}

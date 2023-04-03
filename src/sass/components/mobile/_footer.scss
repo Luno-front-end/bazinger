@@ -1,0 +1,26 @@
+@media screen and (max-width: ( $mobile-old - 1)) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .flex-box {
+    display: block;
+    text-align: center;
+  }
+  .copyright {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: $mobile-old) and (max-width: $desktop) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .flex-box {
+    display: block;
+    text-align: center;
+  }
+  .copyright {
+    margin-bottom: 15px;
+  }
+}

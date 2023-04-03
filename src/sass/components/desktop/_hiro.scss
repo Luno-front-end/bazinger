@@ -1,0 +1,148 @@
+.hiro {
+  position: absolute;
+  top: 349px;
+  right: 162px;
+
+  width: 665px;
+
+  padding: 0;
+}
+.wrapper-hiro {
+  color: $base-white-color;
+
+  width: 680px;
+
+  font-weight: 300;
+}
+.header-hiro {
+  margin-bottom: 24px;
+
+  font-size: 48px;
+  font-weight: 300;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(25, 22, 24, 0.36);
+}
+.subHeader-hiro {
+  font-weight: 700;
+}
+.text-hiro {
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+}
+.list-btn-hiro {
+  display: flex;
+  margin-bottom: 49px;
+}
+.item-btn-hiro {
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+.btn-hiro {
+  color: $base-white-color;
+  background-color: transparent;
+
+  min-width: 195px;
+  height: 65px;
+
+  padding: 10px;
+
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+
+  border: 2px solid $base-white-color;
+
+  transition: all 250ms linear;
+
+  cursor: pointer;
+
+  &:hover {
+    color: $active-btn;
+    background-color: $base-color;
+    border: 2px solid $base-color;
+    box-shadow: 0 4px 0 $shadow-btn-hiro;
+    transition: all 250ms linear;
+  }
+
+  &:focus {
+    background-color: $base-color;
+    border: 2px solid $base-color;
+    box-shadow: 0 4px 0 $shadow-btn-hiro;
+    transition: all 250ms linear;
+  }
+}
+
+.wrapper-apps {
+  display: flex;
+  align-items: center;
+}
+
+.apps-available-hiro {
+  font-size: 18px;
+  margin-right: 21px;
+}
+
+.apps-list-hiro {
+  display: flex;
+}
+
+.apps-item-hiro {
+  &:not(:last-child) {
+    margin-right: 14px;
+  }
+}
+.apps-link-hiro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $bg-available-apps;
+
+  width: 53px;
+  height: 53px;
+
+  border-radius: 50%;
+
+  & .apple-icon {
+    fill: $base-white-color;
+
+    width: 21px;
+    height: 26px;
+    transition: fill 250ms linear;
+  }
+
+  & .android-icon {
+    fill: $base-white-color;
+
+    width: 23px;
+    height: 25px;
+
+    transition: fill 250ms linear;
+  }
+
+  &:hover {
+    & .apple-icon {
+      fill: $base-color;
+    }
+    & .android-icon {
+      fill: $base-color;
+    }
+    transition: fill 250ms linear;
+  }
+
+  &:focus {
+    & .apple-icon {
+      fill: $base-color;
+    }
+    & .android-icon {
+      fill: $base-color;
+    }
+    transition: fill 250ms linear;
+  }
+}

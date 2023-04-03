@@ -1,0 +1,30 @@
+@media screen and (min-width: $desktop-3k) {
+  .header {
+    height: 1300px;
+  }
+
+  .item-nav {
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 37px;
+    }
+  }
+  .link-nav {
+    font-size: 26px;
+
+    &::before {
+      height: 4px;
+    }
+
+    &.active {
+      &::before {
+        height: 4px;
+      }
+    }
+  }
+
+  .wrapper-burger {
+    display: none;
+  }
+}

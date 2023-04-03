@@ -1,0 +1,51 @@
+@media screen and (min-width: $desktop-3k) {
+  .gallery {
+    padding: 50px 0 109px 0;
+  }
+  .header-gallery {
+    margin-bottom: 13px;
+
+    font-size: 62px;
+  }
+  .text-gallery {
+    margin-bottom: 87px;
+
+    font-size: 33px;
+  }
+
+  .item-gallery {
+    width: 500px;
+
+    &:not(:last-child) {
+      margin-right: 115px;
+    }
+  }
+  .wrapper-screenShot {
+    margin-bottom: 54px;
+
+    .plus-simbol {
+      font-size: 74px;
+      text-shadow: 0 4px 3px rgba(25, 22, 24, 0.44);
+    }
+
+    .screenShot-text {
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .img-screenShot {
+      display: block;
+      width: 100%;
+      height: 340px;
+
+      border-radius: 10px;
+
+      transition: opacity 250ms linear;
+    }
+  }
+
+  .text-card-gallery {
+    color: $color-p-card-features;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
