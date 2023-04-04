@@ -1,6 +1,6 @@
 import "./scroll";
 import "./video";
-import "./mob-meenu";
+import "./mob-menu";
 import "./slider";
 
 // scroll();

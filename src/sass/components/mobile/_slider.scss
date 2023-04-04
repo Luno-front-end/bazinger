@@ -66,90 +66,11 @@
   }
 
   #slide-arrow-prev {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    border-radius: 50%;
-    z-index: 999;
-
-    width: 40px;
-    height: 40px;
-
-    background-color: $bg-btn-slide;
-
-    transition: background-color 250ms linear;
-
-    &:hover {
-      background-color: $base-color;
-
-      transition: background-color 250ms linear;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-    }
-    &:focus {
-      background-color: $base-color;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-      }
-    }
+    display: none;
   }
 
   #slide-arrow-next {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-
-    border-radius: 50%;
-    z-index: 999;
-
-    width: 40px;
-    height: 40px;
-
-    transform: rotate(180deg);
-    background-color: $bg-btn-slide;
-
-    transition: background-color 250ms linear;
-    &:hover {
-      background-color: $base-color;
-
-      transition: background-color 250ms linear;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-    }
-    &:focus {
-      background-color: $base-color;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-      }
-    }
+    display: none;
   }
 
   .slide {
@@ -263,90 +184,10 @@
 
   #slide-arrow-prev {
     display: none;
-
-    justify-content: center;
-    align-items: center;
-    left: 0;
-    border-radius: 50%;
-    z-index: 999;
-
-    width: 40px;
-    height: 40px;
-
-    background-color: $bg-btn-slide;
-
-    transition: background-color 250ms linear;
-
-    &:hover {
-      background-color: $base-color;
-
-      transition: background-color 250ms linear;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-    }
-    &:focus {
-      background-color: $base-color;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-      }
-    }
   }
 
   #slide-arrow-next {
     display: none;
-    justify-content: center;
-    align-items: center;
-    right: 0;
-
-    border-radius: 50%;
-    z-index: 999;
-
-    width: 40px;
-    height: 40px;
-
-    transform: rotate(180deg);
-    background-color: $bg-btn-slide;
-
-    transition: background-color 250ms linear;
-    &:hover {
-      background-color: $base-color;
-
-      transition: background-color 250ms linear;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-
-        transition: fill 250ms linear;
-      }
-    }
-    &:focus {
-      background-color: $base-color;
-
-      .arrow-icon-prev {
-        fill: $base-color-text;
-      }
-      .arrow-icon-next {
-        fill: $base-color-text;
-      }
-    }
   }
 
   .slide {
