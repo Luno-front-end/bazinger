@@ -41,5 +41,4 @@ formEl.addEventListener("submit", (e) => {
   subject.value = "";
   message.value = "";
 
-  console.log(body);
 });

@@ -5,13 +5,11 @@ const burgerEl = document.querySelector(".burger");
 const scrollToSection = (e, link) => {
   e.preventDefault();
   const attribute = link.getAttribute("href");
-  console.log(attribute);
 
   if (attribute === "#") {
     return;
   }
 
-  console.log();
 
   linkEl.forEach((linkClass) => {
     linkClass.classList.remove("active");
