@@ -398,7 +398,13 @@
           <div class="container positio-contact">
             <div class="wrapper-form">
               <h2 class="header-contact">Contact</h2>
-              <form action="post" class="contact-form">
+              <div class="alert-form">
+                <p>You name - min 3 characters!</p>
+                <p>Email - min 1 characters!</p>
+                <p>Subject - min 5 characters!</p>
+                <p>Message - min 10 characters!</p>
+              </div>
+              <form action="/" method="post" class="contact-form">
                 <input
                   class="contact-input"
                   type="text"
@@ -444,6 +450,17 @@
         </div>
       </div>
     </footer>
+    <div class="wrapper-popup">
+      <div class="popup">
+        <button class="close-popup"></button>
+        <h1 class="popup-h">Дякую що надали свої дані!</h1>
+        <p class="popup-p">
+          Наші представники звʼяжуться з вами найбличим часом!
+        </p>
+      </div>
+    </div>
     <script type="module" src="./js/index.js"></script>
   </body>
 </html>
+<!-- popup_active_wrapper -->
+<!-- popup_active -->

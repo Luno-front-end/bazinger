@@ -32,6 +32,10 @@
   left: 50%;
 
   transform: translate(-50%, -50%);
+
+  &.container {
+    width: 400px;
+  }
 }
 
 .wrapper-form {
@@ -139,4 +143,14 @@
     box-shadow: 0 4px 0 $shadow-btn-contact;
     transition: box-shadow 250ms linear;
   }
+}
+
+.alert-form {
+  display: none;
+  color: red;
+}
+
+.alert-form-active {
+  display: block;
+  color: red;
 }

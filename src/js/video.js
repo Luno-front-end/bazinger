@@ -53,7 +53,6 @@ const playVideo = (e) => {
     "<strong>Double click to open the video in full screen</strong>"
   );
 
-  console.log(playerEl);
 };
 
 playBtnEl.addEventListener("click", playVideo);
